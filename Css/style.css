@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background-color: #f8f8f8;
+}
+*{
+    color: inherit;
+    text-decoration: none;
+}
+#bg-login{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.box-login{
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.box-login h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.input-control{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.btn{
+    padding: 8px 15px;
+    background-color:  #1CF706;
+    color: #031DF8;
+    border: none;
+    cursor: pointer;
+}
+header{
+    background-color: #00FFFB;
+    color: #030303;
+}
+header h1{
+    float: left;
+    padding: 10px 0;
+}
+header ul{
+    float: right;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    padding: 20px 0 20px 15px;
+    display: inline-block;
+}
+small{
+    text-align: center;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.container:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.section{
+    padding: 80px 0;
+}
+.box{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 25px 0 25px 0;
+}
+.box:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table tr{
+    height: 30px;
+}
+.table tr td{
+    padding: 15px 10px;
+}
+.search{
+    padding: 15px 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.search input[type=text]{
+    width: 60%;
+    padding: 10px;
+}
+.search input[type=Submit]{
+    padding: 12px 15px;
+    background-color: #C70039;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.col-3{
+    width: 33.3%;
+    height: 120px;
+    text-align: center;
+    float: left;
+    box-sizing: border-box;
+}
+.col-10{
+    width: 33.3%;
+    height: 320px;
+    border: 1px solid #ccc;
+    text-align: center;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.col-10:hover{
+    box-shadow: 0,0,3px #00FFFB;
+}
+.col-10 .Nama{
+    font-weight: bold;
+    color: #030303;
+    margin-bottom: 5px;
+}
+.col-10 img{
+    width: 30%;
+}
+.col-10 .Harga{
+    font-weight: bold;
+    color: #030303;
+    margin-bottom: 5px;
+    float: right;
+}
+.col-10 .Deskripsi{
+    font-weight: bold;
+    color: #030303;
+    float: left;
+}
+.col-10 .btn-11{
+    padding: 8px 15px;
+    background-color:  #1CF706;
+    color: 10px solid #031DF8;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.footer{
+    padding: 25px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+.footer p{
+    margin-bottom: 10px;
+}
+.footer small{
+    margin-top: 25px;
+    display: inline-block;
+}
